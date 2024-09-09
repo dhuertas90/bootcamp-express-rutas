@@ -35,6 +35,7 @@ http://localhost:3000
 ├── app.js          # Archivo principal del servidor
 ├── routes.js       # Archivo que contiene las rutas
 ├── public/         # Archivos estáticos (HTML, CSS, JS)
+    └── index.html  # Plantilla inicial
 └── package.json    # Dependencias y configuración del proyecto
 ```
 
