@@ -30,11 +30,13 @@ http://localhost:3000
 
 ## Estructura del Proyecto
 
+```
 .
 ├── app.js          # Archivo principal del servidor
 ├── routes.js       # Archivo que contiene las rutas
 ├── public/         # Archivos estáticos (HTML, CSS, JS)
 └── package.json    # Dependencias y configuración del proyecto
+```
 
 (app.js)
 Este archivo configura el servidor Express y lo organiza para utilizar las rutas definidas en un archivo externo (routes.js), manteniendo la lógica del servidor limpia y modularizada.
