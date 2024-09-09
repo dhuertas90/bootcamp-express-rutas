@@ -1,0 +1,21 @@
+<!-- TIENE NOMBRE A INDEX-TEMP PARA NO INTERFERIR CON EJS (INDEX.EJS)
+
+Para ejecutar los ejemplos anteriores, renombrar a index.html
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi App Express</title>
+</head>
+<body>
+    <h1>¡Bienvenidos a mi App Express!</h1>
+    <p>Se está ejecutando el archivo index.html porque cuando se ejecuta app.use(express.static('public'));
+        si se encuentra un archivo index.html dentro de la carpeta public, entonces se visualiza ese html.
+        Existe una prioridad de los estáticos por sobre los Middleware que pueda crear por ejemplo, app.use('/', routes);
+        En un futuro, no será necesario que exista este archivo index.html
+        Es solamente para entender esta situación particular, que sucede en un inicio.
+    </p>
+</body>
+</html>
